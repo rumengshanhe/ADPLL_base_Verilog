@@ -1,0 +1,102 @@
+# Reading D:/Application/Altera/Quartus_13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/secureip". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/simprims_ver". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unifast". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unifast_ver". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unimacro". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unimacro_ver". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unisim". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unisims_ver". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/xilinx_vip". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/xpm". (Format: 4)
+# do dpll_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying E:\Xilinx\Xlib\modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/comber/ADPLL/source {D:/comber/ADPLL/source/dpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dpll
+# 
+# Top level modules:
+# 	dpll
+# vlog -vlog01compat -work work +incdir+D:/comber/ADPLL/source {D:/comber/ADPLL/source/freqdivider.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module freqdivider
+# 
+# Top level modules:
+# 	freqdivider
+# vlog -vlog01compat -work work +incdir+D:/comber/ADPLL/source {D:/comber/ADPLL/source/phasecomparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module phasecomparator
+# 
+# Top level modules:
+# 	phasecomparator
+# vlog -vlog01compat -work work +incdir+D:/comber/ADPLL/source {D:/comber/ADPLL/source/randomwalkfilter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module randomwalkfilter
+# 
+# Top level modules:
+# 	randomwalkfilter
+# vlog -vlog01compat -work work +incdir+D:/comber/ADPLL/source {D:/comber/ADPLL/source/variableresetrandomwalkfilter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module variableresetrandomwalkfilter
+# 
+# Top level modules:
+# 	variableresetrandomwalkfilter
+# 
+# vlog -vlog01compat -work work +incdir+D:/comber/ADPLL/simulation/modelsim {D:/comber/ADPLL/simulation/modelsim/dpll.vt}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dpll_vlg_tst
+# 
+# Top level modules:
+# 	dpll_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  dpll_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps dpll_vlg_tst 
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/secureip". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/simprims_ver". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unifast". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unifast_ver". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unimacro". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unimacro_ver". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unisim". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/unisims_ver". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/xilinx_vip". (Format: 4)
+# ** Error: (vish-42) Unsupported ModelSim library format for "E:/Xilinx/Xlib/xpm". (Format: 4)
+# Loading work.dpll_vlg_tst
+# Loading work.dpll
+# Loading work.phasecomparator
+# Loading work.variableresetrandomwalkfilter
+# Loading work.randomwalkfilter
+# Loading work.freqdivider
+# ** Warning: (vsim-3017) D:/comber/ADPLL/source/dpll.v(43): [TFMPC] - Too few port connections. Expected 8, found 5.
+# 
+#         Region: /dpll_vlg_tst/i1/inst_zrwf
+# ** Warning: (vsim-3722) D:/comber/ADPLL/source/dpll.v(43): [TFMPC] - Missing connection for port 'N_FilterCounter'.
+# 
+# ** Warning: (vsim-3722) D:/comber/ADPLL/source/dpll.v(43): [TFMPC] - Missing connection for port 'ResetterValue'.
+# 
+# ** Warning: (vsim-3722) D:/comber/ADPLL/source/dpll.v(43): [TFMPC] - Missing connection for port 'ResetterCounter'.
+# 
+# ** Warning: (vsim-3017) D:/comber/ADPLL/source/dpll.v(48): [TFMPC] - Too few port connections. Expected 7, found 6.
+# 
+#         Region: /dpll_vlg_tst/i1/inst_freqdiv
+# ** Warning: (vsim-3015) D:/comber/ADPLL/source/dpll.v(48): [PCDPC] - Port size (8 or 8) does not match connection size (32) for port 'DividerMax'. The port definition is at: D:/comber/ADPLL/source/freqdivider.v(5).
+# 
+#         Region: /dpll_vlg_tst/i1/inst_freqdiv
+# ** Warning: (vsim-3722) D:/comber/ADPLL/source/dpll.v(48): [TFMPC] - Missing connection for port 'DividerCounter'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# Break key hit 
+# Simulation stop requested.

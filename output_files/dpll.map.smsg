@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at phasecomparator.v(55): always construct contains both blocking and non-blocking assignments
+Warning (10262): Verilog HDL Event Control warning at variableresetrandomwalkfilter.v(60): event expression is a constant

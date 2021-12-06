@@ -1,0 +1,82 @@
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "08/26/2021 22:23:57"                                                                           
+// Verilog Test Bench template for design : dpll
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+  
+`timescale 1ns / 1ps
+module dpll_vlg_tst();
+	//reg
+	reg MainClock;
+	reg SignalIn;
+	// wires        
+	wire SynchronousSignal;
+	wire SignalOut;    
+	wire Lead;                                   
+	wire Lag;
+	wire Positive;
+	wire Negative;
+
+	wire InputSignalEdge, OutputSignalEdge;
+	wire Lock;
+	wire [7:0] PeriodCount;
+	wire [7:0] DividerMaxValue;
+
+
+	// assign statements (if any)                          
+	dpll i1 (
+	// port map - connection between master ports and signals/registers  
+	   .MainClock(MainClock), 
+	   .SignalIn(SignalIn),
+		.SignalOut(SignalOut),
+		.Lead(Lead),
+		.Lag(Lag),
+      .Positive(Positive),
+		.Negative(Negative),
+		.InputSignalEdge(InputSignalEdge),
+		.OutputSignalEdge(OutputSignalEdge),
+		.Lock(Lock),
+		.SynchronousSignal(SynchronousSignal),
+		.PeriodCount(PeriodCount),
+		.DividerMaxValue(DividerMaxValue)
+	);
+	
+	/*	系统时钟	*/
+	parameter clk_period = 20; 		// 20ns => 50MHz
+	/*	输入时钟	*/
+	parameter signal_period = 2000;	// 2000ns => 500KHz
+	/*	输入延时	*/
+	parameter delay = 3287;				//	随机设置
+	
+	reg SignalStart;
+	initial                                                
+		begin                                                  
+			MainClock <= 1'b1;
+			SignalIn <= 1'b0;
+			SignalStart = 1'b1;
+			$display("Running testbench");                       
+		end     
+		
+	always                                      
+		begin
+			#(clk_period / 2) MainClock <= ~MainClock;
+		end  
+
+	/*	给输入添加延时	*/
+	always                                  
+		begin
+		    case(SignalStart)
+			     1'b1 : #delay SignalStart = 1'b0;
+			     1'b0 : #(signal_period / 2) SignalIn <= ~SignalIn;
+			endcase
+		end 		
+
+		
+endmodule
+
+
+

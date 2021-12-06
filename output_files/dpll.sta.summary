@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'MainClock'
+Slack : -13.438
+TNS   : -174.284
+
+Type  : Slow 1200mV 85C Model Setup 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : -1.393
+TNS   : -1.393
+
+Type  : Slow 1200mV 85C Model Setup 'freqdivider:inst_freqdiv|overflow'
+Slack : -0.405
+TNS   : -0.405
+
+Type  : Slow 1200mV 85C Model Hold 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : -0.271
+TNS   : -0.756
+
+Type  : Slow 1200mV 85C Model Hold 'MainClock'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'freqdivider:inst_freqdiv|overflow'
+Slack : 0.880
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MainClock'
+Slack : -3.000
+TNS   : -80.324
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'freqdivider:inst_freqdiv|overflow'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Setup 'MainClock'
+Slack : -12.320
+TNS   : -158.317
+
+Type  : Slow 1200mV 0C Model Setup 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : -1.100
+TNS   : -1.100
+
+Type  : Slow 1200mV 0C Model Setup 'freqdivider:inst_freqdiv|overflow'
+Slack : -0.293
+TNS   : -0.293
+
+Type  : Slow 1200mV 0C Model Hold 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : -0.275
+TNS   : -0.768
+
+Type  : Slow 1200mV 0C Model Hold 'MainClock'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'freqdivider:inst_freqdiv|overflow'
+Slack : 0.802
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MainClock'
+Slack : -3.000
+TNS   : -80.324
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : -1.487
+TNS   : -15.027
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'freqdivider:inst_freqdiv|overflow'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Fast 1200mV 0C Model Setup 'MainClock'
+Slack : -5.353
+TNS   : -49.978
+
+Type  : Fast 1200mV 0C Model Setup 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : -0.183
+TNS   : -0.183
+
+Type  : Fast 1200mV 0C Model Setup 'freqdivider:inst_freqdiv|overflow'
+Slack : 0.429
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MainClock'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'freqdivider:inst_freqdiv|overflow'
+Slack : 0.373
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MainClock'
+Slack : -3.000
+TNS   : -57.791
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'phasecomparator:inst_ph_cmp|InputSignalEdgeDet[0]'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'freqdivider:inst_freqdiv|overflow'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

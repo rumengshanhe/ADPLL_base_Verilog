@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\comber\ADPLL\simulation\modelsim
+vdpll
+I8h;RKLL@H[_BoMzzi4RHC2
+VL<5a1^k`;8[g2j`PB<KQI0
+Z1 dD:\comber\ADPLL\simulation\modelsim
+w1632394232
+8D:/comber/ADPLL/source/dpll.v
+FD:/comber/ADPLL/source/dpll.v
+L0 3
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/comber/ADPLL/source -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+!i10b 1
+!s100 oL>kb99R?Vl8GODbL4;0C1
+!s85 0
+!s108 1632394243.686000
+!s107 D:/comber/ADPLL/source/dpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/comber/ADPLL/source|D:/comber/ADPLL/source/dpll.v|
+!s101 -O0
+vdpll_vlg_tst
+!i10b 1
+!s100 @1ZoYHT_9eMn=`@?I`0:e0
+IW4849N9@bBmef2?WCgXF?1
+V4AgCMk3==QXNJ6z<J6NNV0
+R1
+w1632394233
+8D:/comber/ADPLL/simulation/modelsim/dpll.vt
+FD:/comber/ADPLL/simulation/modelsim/dpll.vt
+L0 12
+R2
+r1
+!s85 0
+31
+!s108 1632394244.186000
+!s107 D:/comber/ADPLL/simulation/modelsim/dpll.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/comber/ADPLL/simulation/modelsim|D:/comber/ADPLL/simulation/modelsim/dpll.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/comber/ADPLL/simulation/modelsim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vfreqdivider
+INdN=d6Ce>G5N88zJl7?2[1
+V9z0Uk6^VAZdVVzmeW=>[g3
+R1
+w1631101943
+8D:/comber/ADPLL/source/freqdivider.v
+FD:/comber/ADPLL/source/freqdivider.v
+L0 5
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 [l?<WCWJ]d]=^jNPY5IVD0
+!s85 0
+!s108 1632394243.812000
+!s107 D:/comber/ADPLL/source/freqdivider.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/comber/ADPLL/source|D:/comber/ADPLL/source/freqdivider.v|
+!s101 -O0
+vphasecomparator
+Iihn:8@:]Rz[_ZK_83nh;n3
+VAYB3eaQ_lI@QJRQBSO4AB0
+R1
+w1631104254
+8D:/comber/ADPLL/source/phasecomparator.v
+FD:/comber/ADPLL/source/phasecomparator.v
+L0 5
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 VBkN<V1[MP@QL9dmbc`fH0
+!s85 0
+!s108 1632394243.905000
+!s107 D:/comber/ADPLL/source/phasecomparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/comber/ADPLL/source|D:/comber/ADPLL/source/phasecomparator.v|
+!s101 -O0
+vrandomwalkfilter
+I=GVOl<lc:Al501Pc:Eh581
+V][WTImfY2Kda]o`LVk=Ya3
+R1
+w1631101931
+8D:/comber/ADPLL/source/randomwalkfilter.v
+FD:/comber/ADPLL/source/randomwalkfilter.v
+L0 4
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 G`c^ecUS<TPba^Y@E=l<I0
+!s85 0
+!s108 1632394243.998000
+!s107 D:/comber/ADPLL/source/randomwalkfilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/comber/ADPLL/source|D:/comber/ADPLL/source/randomwalkfilter.v|
+!s101 -O0
+vvariableresetrandomwalkfilter
+I41_CY@Db4oi1cOc63em3=2
+V`c<;_G5YQX2Z;;0a67>9?3
+R1
+w1631101968
+8D:/comber/ADPLL/source/variableresetrandomwalkfilter.v
+FD:/comber/ADPLL/source/variableresetrandomwalkfilter.v
+L0 5
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 IVg_1l^[Lfj?nJ=G8kUZT1
+!s85 0
+!s108 1632394244.088000
+!s107 D:/comber/ADPLL/source/variableresetrandomwalkfilter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/comber/ADPLL/source|D:/comber/ADPLL/source/variableresetrandomwalkfilter.v|
+!s101 -O0
