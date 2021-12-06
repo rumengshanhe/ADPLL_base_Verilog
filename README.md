@@ -2,13 +2,7 @@
 基于Verilog的全数字锁相环
 
 ---
-title: 全数字锁相环的Verilog实现
-toc: true
 date: 2021年9月23日
-tags: 
-    - 数字锁相环
-    - Verilog
-categories: FPGA
 ---
 
 # 概述
