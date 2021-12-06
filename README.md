@@ -1,0 +1,2 @@
+# ADPLL_base_Verilog
+基于Verilog实现的全数字锁相环
